@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="horizontal"
+    android:layout_marginTop="2dp"
+    >
+
+    <TextView
+        android:id="@+id/From"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="FROM"
+        android:textColor="@color/purple"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+
+        >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/arrows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/arrow"
+        android:layout_marginLeft="25dp"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/To"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TO"
+        android:textColor="@color/purple"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+
+        >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/delete"
+        android:backgroundTint="@color/grey"
+        >
+
+    </ImageButton>
+
+</LinearLayout>

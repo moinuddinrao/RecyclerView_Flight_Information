@@ -1,1 +1,1 @@
-# RecyclerView_Flight_Information
+RecyclerView Andriod app for Flight Schedule Information
